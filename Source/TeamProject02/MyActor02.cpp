@@ -7,7 +7,6 @@
 AMyActor02::AMyActor02()
 {
 	PrimaryActorTick.bCanEverTick = true;
-
 }
 void AMyActor02::BeginPlay()
 {
@@ -16,6 +15,6 @@ void AMyActor02::BeginPlay()
 void AMyActor02::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
+//refac..
 
